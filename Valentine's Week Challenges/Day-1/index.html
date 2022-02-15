@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Valentine's Challenge Week - Challenge:1 💘</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>💖  Gift Selector 💖 </h1>
+        <div id="Main">
+            <p class="result" id="result">Total gift cost: <span id="cost-el">❓</span></p>
+            <form>
+                <label for="food-select">Select food:</label>
+                <select id="food-select">
+                    <option value="">--Please select an option--</option>
+                    <option value="5">🍓 strawberries - $5</option>
+                    <option value="10">🍫 chocolate - $10</option>
+                    <option value="20">🧁 cupcakes - $20</option>
+                </select>
+                <br>
+                <label for="transport-select">Select transport:</label>
+                <select id="transport-select">
+                    <option value="">--Please select an option--</option>
+                    <option value="5">⛸️ rollerskates - $5</option>
+                    <option value="50">🚘 limo - $50</option>
+                    <option value="500">🚁 helicopter - $500</option>
+                </select>
+                <br>
+                <div>
+                    <label for="balloon-checkbox">Add balloons?  ($2 only) </label>            
+                    <input type="checkbox" class="check" id="balloon-checkbox" name="balloon-checkbox">
+                </div>
+                
+                <button id="btn" type="button">Calculate</button>
+                
+                <div id="error_message"></div>
+                
+           </form>
+        </div>   
+        <script src="index.js"></script>
+    </body>
+</html>
