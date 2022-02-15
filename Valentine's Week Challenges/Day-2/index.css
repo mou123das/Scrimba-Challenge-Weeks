@@ -1,0 +1,166 @@
+:root {
+  --yellow: #FBF3AB;
+  --light-pink: #F0B9DD;
+  --lavender: #C7B9FF;
+  --deep-pink: #F04C86;
+  --raisin: #2B283A;
+  --white: #fff;
+}
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: var(--lavender);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    font-family: 'Karla', sans-serif;
+    background:url(Image/back.jpg) ;
+}
+
+#cont{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#Main{
+    background-color:rgb(252, 228, 236);
+    padding: 36px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 37px 0px rgba(207,98,135,1);
+    -webkit-box-shadow: 0px 0px 37px 0px rgba(207,98,135,1);
+    -moz-box-shadow: 0px 0px 37px 0px rgba(207,98,135,1);
+}
+
+.card {
+    min-width: 280px;
+    border-radius: 30px;
+    background: var(--yellow);
+    font-size: 24px;    
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    margin:30px;
+}
+
+#head-card
+{
+    font-size: 37px;
+    text-shadow: 3px 3px 9px rgba(206,77,36,0.72);
+    color: rgb(136, 14, 79);
+}
+
+.message{
+   font-family: 'Dancing Script', cursive;
+   font-size: 30px;
+   color:rgb(245, 0, 87);
+   box-shadow: 0px 0px 37px 0px rgba(207,98,135,1);
+    -webkit-box-shadow: 0px 0px 37px 0px rgba(207,98,135,1);
+    -moz-box-shadow: 0px 0px 37px 0px rgba(207,98,135,1);
+}
+
+#welcome
+{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: rgb(213, 0, 0);
+    text-shadow: 3px 3px 9px rgba(206,77,36,0.72);
+}
+
+.wel{
+    box-shadow: -2px 4px 32px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px 4px 32px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 4px 32px 0px rgba(0,0,0,0.75);
+}
+
+.card p {
+   font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form * {
+   padding: .5em;
+   font-size:15px;
+   font-family: inherit;       
+}
+
+form label {
+   font-weight: 700;
+}
+
+form *:not(label) {
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    margin-bottom: 10px;
+    position: relative;
+    left: 96px;
+}
+
+.check:focus,button:focus{
+    outline: 0 !important;
+}
+
+.check {
+   width: 1rem;
+   height: 1rem;
+   background: rgb(255, 253, 231);
+   padding: 1rem;
+   border-width: 2px;
+   border-style: solid;
+   border-color: rgb(236, 64, 122);
+}
+
+.check:checked {
+      background: url(Image/heart.png) no-repeat center;
+      background-size: cover;
+      box-shadow: 1px 2px 34px 0px rgba(242,18,68,0.75);
+    -webkit-box-shadow: 1px 2px 34px 0px rgba(242,18,68,0.75);
+    -moz-box-shadow: 1px 2px 34px 0px rgba(242,18,68,0.75);  
+}
+
+#btn{
+    position: relative;
+    top:-26px;
+    left:284px;
+     appearance: none;
+}
+
+button {
+    background: rgb(248, 187, 208);
+    font-size: 14px;
+    border: none;
+    padding:5px;
+    border-radius:16px;
+    cursor: pointer;
+}
+
+#btn:active {
+    box-shadow: 2px 5px 18px -8px rgba(230,40,40,0.75);
+    -webkit-box-shadow: 2px 5px 18px -8px rgba(230,40,40,0.75);
+    -moz-box-shadow: 2px 5px 18px -8px rgba(230,40,40,0.75);
+}
+
+/* <!--The heart Check mark icon's CREDITS given below:-->
+    <!-- The heart check mark icon has been attributed below:
+         <a href="https://www.flaticon.com/free-icons/heart-check" title="heart check icons">Heart check icons created by SBTS2018 - Flaticon</a>
+    -->*/
+        
