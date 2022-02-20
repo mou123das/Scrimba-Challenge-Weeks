@@ -1,0 +1,127 @@
+:root {
+  --yellow: #FBF3AB;
+  --light-pink: #F0B9DD;
+  --lavender: #C7B9FF;
+  --deep-pink: #F04C86;
+  --raisin: #2B283A;
+  --white: #fff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    text-shadow: 4px 3px 9px rgba(57,1,1,0.42);
+}
+
+
+body {
+    background:linear-gradient(rgba(0,0,0,0.1),rgb(136, 14, 79)), url(Image/back-1.jpg) ;
+    height:100vh;
+    background-color: var(--yellow);
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-flow:column wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.x{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.u{
+    position: relative;
+    top:-60px;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.flex-1 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255, 235, 238);
+    padding: 20px;
+    width:230px;
+    border-radius: 30px;
+    position: relative;
+    left:40px;
+    bottom:-10px;
+}
+
+
+p{    
+    background: rgb(255, 171, 145);
+    color: var(--raisin);
+    width: 470px;
+    min-height: 20px;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
+}
+
+button {
+    font-family: inherit;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
+    border: none;
+    padding: 1em 2em;
+    color: var(--white);
+    background: var(--deep-pink);
+    margin-right:10px;
+}
+button:focus{
+    outline:0;
+    appearance:none;
+}
+
+button:hover{
+    transform: scale(1.02);
+    cursor: pointer;  
+    background: rgb(156, 39, 176);
+}
+
+h1{
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 1px;
+    font-size: 40px;
+    text-align: center;
+    margin-top:20px;
+    background: rgb(255, 253, 231);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding:13px;
+    border-radius: 20px;
+}
+
+h2{
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 2px;
+    font-size: 21px;
+    text-align: center;
+    margin-top:20px;
+    background: rgb(255, 253, 231);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding:13px;
+    border-radius: 20px;
+}
+
+.add{
+   font-size: 15px;
+   border-radius:30px;
+   margin-top:10px;
+   margin-right: -1px;
+  -webkit-box-shadow: 10px 10px 25px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 25px -10px rgba(0,0,0,0.75);
+   box-shadow: 10px 10px 25px -10px rgba(0,0,0,0.75);
+}
