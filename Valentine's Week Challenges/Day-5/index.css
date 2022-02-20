@@ -1,0 +1,120 @@
+:root {
+  --yellow: #FBF3AB;
+  --light-pink: #F0B9DD;
+  --lavender: #C7B9FF;
+  --deep-pink: #F04C86;
+  --raisin: #2B283A;
+  --white: #fff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--lavender);
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body *{
+    margin: 2.6em;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#FFF9C4;
+    padding:26px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 37px 0px rgba(207,98,135,1);
+    -webkit-box-shadow: 0px 0px 37px 0px rgba(207,98,135,1);
+    -moz-box-shadow: 0px 0px 37px 0px rgba(207,98,135,1);
+    padding:2px;
+}
+
+button {
+    font-family: inherit;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
+    border: none;
+    padding: 1em 2em;
+    color: var(--raisin);
+    background: var(--white);
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;  
+}
+
+
+/* heart styles */
+.heart {
+  background-color: var(--white);
+  display: inline-block;
+  height: 100px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 100px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  position: absolute;
+  background-color: var(--white);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.heart:before {
+  top: -50px;
+  left: 0;
+}
+
+.heart:after {
+  left: 50px;
+  top: 0;
+}
+
+button:focus{
+    background: #EEFF41;
+    outline: 0;
+    transform: scale(1.1);
+}
+
+#heart{
+    -webkit-box-shadow: -2px 8px 51px -3px rgba(36,36,79,1);
+    -moz-box-shadow: -2px 8px 51px -3px rgba(36,36,79,1);
+    box-shadow: -2px 8px 51px -3px rgba(36,36,79,1);
+    animation: hrt 2s infinite;
+}
+
+@keyframes hrt {
+  0% {
+    -webkit-box-shadow: -2px 8px 51px -3px rgba(36,36,79,1);
+    -moz-box-shadow: -2px 8px 51px -3px rgba(36,36,79,1);
+    box-shadow: -2px 8px 51px -3px rgba(36,36,79,1);
+  }
+  50% {
+    -webkit-box-shadow: 3px -1px 29px 4px rgba(189,170,189,1);
+    -moz-box-shadow: 3px -1px 29px 4px rgba(189,170,189,1);
+    box-shadow: 3px -1px 29px 4px rgba(189,170,189,1);
+
+  }
+  100% {
+    -webkit-box-shadow: -2px 8px 51px -3px rgba(36,36,79,1);
+    -moz-box-shadow: -2px 8px 51px -3px rgba(36,36,79,1);
+    box-shadow: -2px 8px 51px -3px rgba(36,36,79,1);
+  }
+}
