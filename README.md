@@ -7,3 +7,5 @@ This repository contains my solutions for the various challenges given daily by 
   * [Day-3](https://github.com/mou123das/Scrimba-Challenge-Weeks/tree/main/Valentine's%20Week%20Challenges/Day-3)
   * [Day-4](https://github.com/mou123das/Scrimba-Challenge-Weeks/tree/main/Valentine's%20Week%20Challenges/Day-4)
   * [Day-5](https://github.com/mou123das/Scrimba-Challenge-Weeks/tree/main/Valentine's%20Week%20Challenges/Day-5)
+## Overview of my submissions:
+![](https://github.com/mou123das/Scrimba-Challenge-Weeks/blob/main/Valentine's%20Week%20Challenges/Scrimba%20Challenge%20Weeks%20Week-1%20Collage.gif)
